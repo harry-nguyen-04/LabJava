@@ -53,7 +53,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>vhuwng.lab.D1.Main</mainClass>
+                    <mainClass>vhuwng.lab.D2.Lab2</mainClass>
                 </configuration>
             </plugin>
         </plugins>
