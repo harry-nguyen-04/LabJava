@@ -1,0 +1,16 @@
+server:
+  port: ${SERVER_PORT:8081}
+
+spring:
+  application:
+    name: pricing
+
+logging:
+  pattern:
+    level: "%5p [correlationId=%X{correlationId}]"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
